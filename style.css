@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("images/bg.jpg");
+    height: 95vh;
+    position: inherit;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.main .box1 {
+    background-color: black;
+    width: 100%;
+    height: 95vh;
+    opacity: 0.70;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 70vw;
+
+}
+
+nav img {
+    color: red;
+    width: 115px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.main .box2 {
+    position: relative;
+    height: calc(100% - 62px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    flex-direction: column;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 23px;
+}
+
+.main .box2> :first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main .box2> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.main .box2> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperation {
+    width: 100%;
+    background-color: grey;
+    height: 7px;
+    opacity: 0.24;
+    position: relative;
+    z-index: 20;
+}
+
+.btn {
+    padding: 5px 13px;
+    font-weight: bold;
+    background-color: rgba(23, 23, 23, 0.2);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 10px 24px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-red-s {
+    background-color: red;
+    color: white;
+}
+
+input {
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 14px 166px;
+    font-size: 14px;
+    padding-left: 14px;
+    padding-left: 14px;
+    color: white;
+    border: 1px solid rgba(223, 215, 215, 0.5);
+}
+
+.main .box3 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 78vw;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secimg video {
+    position: absolute;
+    right: 0;
+    top: 51px;
+    width: 30vw;
+}
+
+.first div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.first span:nth-child(1) {
+    font-size: 48px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.first span:nth-child(2),
+span:last-child {
+    font-size: 24px;
+}
+
+.second {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 78vw;
+}
+
+.second div:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.second span:first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    padding-bottom: 8px;
+}
+
+.second span:last-child {
+    font-size: 24px;
+    /* padding: 5px 92px 0px 0px; */
+}
+
+.third {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 78vw;
+}
+
+.third div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.third span:nth-child(1) {
+    font-size: 48px;
+    padding-bottom: 15px;
+    font-weight: bolder;
+}
+
+.third span:last-child {
+    font-size: 24px;
+    padding: 0px 246px 0px 0px;
+}
+
+.faq {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+
+.faq h2 {
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bolder;
+    font-size: 45px;
+}
+
+.faqbox {
+    display: flex;
+    background-color: gray;
+    justify-content: space-between;
+    margin: 20px 154px;
+    padding: 20px;
+    margin-bottom: -12px;
+    cursor: pointer;
+}
+
+.box4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box4 span{
+    font-size: 24px;
+    font-weight: 400;
+    padding: 60px 0px 21px 0px;
+}
+
+.box4 .box3{
+    padding-bottom: 70px;
+}
